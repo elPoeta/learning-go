@@ -6,3 +6,6 @@ go build fileName.go
 
 ## Run
 ./fileName
+
+## Compile and Run
+go run fileName.go
