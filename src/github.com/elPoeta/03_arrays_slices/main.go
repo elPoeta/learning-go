@@ -14,4 +14,10 @@ func main() {
 	languges = append(languges, "java")
 	fmt.Println(languges)
 
+	fmt.Println(len(languges))
+
+	for index, lang := range languges {
+		fmt.Println(index, lang)
+	}
+
 }
